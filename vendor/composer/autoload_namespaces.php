@@ -4,7 +4,10 @@
 
 $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
+$srcDir = $baseDir.'/src';
 
 return array(
     'Slim' => array($vendorDir . '/slim/slim'),
+    'Src' => array($srcDir),
+    
 );
