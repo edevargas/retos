@@ -8,6 +8,6 @@ $srcDir = $baseDir.'/src';
 
 return array(
     'Slim' => array($vendorDir . '/slim/slim'),
-    'Src' => array($srcDir),
+    'Controllers' => array($srcDir . '/Controllers'),
     
 );
